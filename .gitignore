@@ -57,6 +57,7 @@ _work/mcskin/
 _work/pt_research/
 _work/carve/
 _work/uninstall-keep/
-_work/model_files/
+_work/model_files/*
+!_work/model_files/README.txt
 *.ogv
 *.ico
