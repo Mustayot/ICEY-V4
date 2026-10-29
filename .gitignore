@@ -1,0 +1,62 @@
+# ============================================================
+#  只放源码 / 文档 / 自制素材；游戏文件与编译产物一律不入库
+# ============================================================
+
+# ---------- 游戏本体与资源（绝对不要入库）----------
+ICEY.exe
+ICEY V4.exe
+*_Data/
+*.assets
+*.resS
+*.resource
+globalgamemanagers*
+level*
+sharedassets*
+StreamingAssets/
+
+# ---------- 插件运行时与第三方二进制 ----------
+BepInEx/
+winhttp.dll
+doorstop_config.ini
+.doorstop_version
+steam_appid.txt
+
+# ---------- 编译产物 ----------
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.zip
+*.7z
+*.il
+
+# ---------- 本机私有 / 备份 / 日志 ----------
+_savebackup/
+ICEY作弊面板-配置备份/
+*.log
+LogOutput*.log
+output_log.txt
+副本当前状态.txt
+
+# ---------- 编辑器与系统 ----------
+.vs/
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
+*.user
+*.suo
+
+# ---------- 打包脚本产物 / 逆向素材（审计补充）----------
+_dist/
+player_skin/
+_work/*.g.cs
+_work/mc_assets/
+_work/mcskin/
+_work/pt_research/
+_work/carve/
+_work/uninstall-keep/
+_work/model_files/
+*.ogv
+*.ico
