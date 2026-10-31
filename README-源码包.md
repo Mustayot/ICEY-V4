@@ -114,14 +114,11 @@ docs\                   全部调研与技术文档(★ 先看「逆向文档.md
 
 ## 许可与第三方
 
-- 本包**自己的代码**:随你使用,但**请自行承担风险**(改游戏总有风险,先备份存档)。
-- 包里**没有**捆绑第三方二进制。README 里提到的第三方组件(各自保留原许可):
-  **BepInEx**(LGPL-2.1)、**HarmonyX / MonoMod / Mono.Cecil**(MIT),以及 Python 侧的 **UnityPy**、**Pillow**。
-- 《ICEY》版权属 **Shanghai FantaBlade Network Technology Co., Ltd**;
-  Minecraft 属 **Mojang / Microsoft**。本项目是**非官方粉丝作品**,与任何官方无关。
-- **使用本代码前请先备份存档。**
-
----
+- 本仓库原创源代码及项目自制文档采用根目录 `LICENSE` 中的 MIT License。
+- MIT License 不授予《ICEY》游戏本体、游戏内美术/音频/文本等内容、商标或其他第三方材料的权利；这些内容仍归各自权利人所有，并受其许可条款约束。
+- 本包不捆绑第三方二进制。文档中提及的第三方组件按各自许可证使用：**BepInEx**(LGPL-2.1)、**HarmonyX / MonoMod / Mono.Cecil**(MIT)，以及 Python 工具链中的 **UnityPy**、**Pillow** 等(遵循各自许可证)。
+- 《ICEY》版权属 **Shanghai FantaBlade Network Technology Co., Ltd**；Minecraft 属 **Mojang / Microsoft**。本项目是非官方粉丝作品，与任何官方无关。
+- 使用本代码前请先备份存档，并自行确认对游戏本体及相关资源的使用符合适用条款。
 
 ## 补充说明(2026-10-29 审计后补)
 
